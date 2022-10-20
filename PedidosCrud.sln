@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{6BE2736D-B3B8-4ED3-8B3B-7610F34CE387}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{C8DBC24E-DA0A-44EB-9FB5-41732B323071}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{D419B752-55BC-420D-8B1C-C2050140D6BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{0EBA12BF-E020-4B3A-AB9D-FFC1FB01C51B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{DA50E863-3024-4469-AAF9-D37131219056}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{AF84F1C3-A974-40C5-B644-A07D71C0F1F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedidosCrud.Infra.Data", "PedidosCrud.Infra.Data\PedidosCrud.Infra.Data.csproj", "{370A7646-7AF3-45C1-A235-21578BDC3F20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedidosCrud.Domain", "PedidosCrud.Infra.Domain\PedidosCrud.Domain.csproj", "{DB345BCB-B927-4AC9-AA30-EC4568D6DFD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedidosCrud.Application", "PedidosCrud.Application\PedidosCrud.Application.csproj", "{8D6AAB8C-4142-4A2C-9C7E-30102CCF78D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{1F3D92F8-D1C9-4D0C-8105-431AA0F26A8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedidosCrud.Infra.CrossCutting", "PedidosCrud.Infra.CrossCutting\PedidosCrud.Infra.CrossCutting.csproj", "{BC772C6B-0C35-4F7A-B974-0115E55DF28E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedidosCrud.Presentatioon", "PedidosCrud.Presentatioon\PedidosCrud.Presentatioon.csproj", "{DE786F98-2FD6-415C-A8ED-7DDEE205B59A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{370A7646-7AF3-45C1-A235-21578BDC3F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{370A7646-7AF3-45C1-A235-21578BDC3F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{370A7646-7AF3-45C1-A235-21578BDC3F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{370A7646-7AF3-45C1-A235-21578BDC3F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB345BCB-B927-4AC9-AA30-EC4568D6DFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB345BCB-B927-4AC9-AA30-EC4568D6DFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB345BCB-B927-4AC9-AA30-EC4568D6DFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB345BCB-B927-4AC9-AA30-EC4568D6DFD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D6AAB8C-4142-4A2C-9C7E-30102CCF78D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6AAB8C-4142-4A2C-9C7E-30102CCF78D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6AAB8C-4142-4A2C-9C7E-30102CCF78D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6AAB8C-4142-4A2C-9C7E-30102CCF78D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC772C6B-0C35-4F7A-B974-0115E55DF28E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC772C6B-0C35-4F7A-B974-0115E55DF28E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC772C6B-0C35-4F7A-B974-0115E55DF28E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC772C6B-0C35-4F7A-B974-0115E55DF28E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE786F98-2FD6-415C-A8ED-7DDEE205B59A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE786F98-2FD6-415C-A8ED-7DDEE205B59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE786F98-2FD6-415C-A8ED-7DDEE205B59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE786F98-2FD6-415C-A8ED-7DDEE205B59A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF84F1C3-A974-40C5-B644-A07D71C0F1F9} = {DA50E863-3024-4469-AAF9-D37131219056}
+		{370A7646-7AF3-45C1-A235-21578BDC3F20} = {AF84F1C3-A974-40C5-B644-A07D71C0F1F9}
+		{DB345BCB-B927-4AC9-AA30-EC4568D6DFD5} = {0EBA12BF-E020-4B3A-AB9D-FFC1FB01C51B}
+		{8D6AAB8C-4142-4A2C-9C7E-30102CCF78D4} = {D419B752-55BC-420D-8B1C-C2050140D6BB}
+		{1F3D92F8-D1C9-4D0C-8105-431AA0F26A8F} = {DA50E863-3024-4469-AAF9-D37131219056}
+		{BC772C6B-0C35-4F7A-B974-0115E55DF28E} = {1F3D92F8-D1C9-4D0C-8105-431AA0F26A8F}
+		{DE786F98-2FD6-415C-A8ED-7DDEE205B59A} = {6BE2736D-B3B8-4ED3-8B3B-7610F34CE387}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C61F56D-685E-4D78-993D-0A48384D2697}
+	EndGlobalSection
+EndGlobal
